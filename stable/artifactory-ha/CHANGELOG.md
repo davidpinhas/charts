@@ -1,6 +1,9 @@
 # JFrog Artifactory-ha Chart Changelog
 All changes to this chart will be documented in this file.
 
+## [2.6.1] - Jun 29, 2020
+* Add dedicated ingress object for Replicator service when enabled
+
 ## [2.6.0] - Jun 29, 2020
 * Updated Artifactory version to 7.6.1 - https://www.jfrog.com/confluence/display/JFROG/Artifactory+Release+Notes#ArtifactoryReleaseNotes-Artifactory7.6.1
 * Add tpl for external database secrets

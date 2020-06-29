@@ -1041,6 +1041,23 @@ artifactory:
   javaOpts: {}
     # other: ""
 
+  ## The following setting are to configure a dedicated Ingress object for Replicator service
+  replicator:
+    enabled: false
+    ingress:
+      name:
+      hosts: []
+      annotations: {}
+        # kubernetes.io/ingress.class: nginx
+        # nginx.ingress.kubernetes.io/proxy-buffering: "off"
+        # nginx.ingress.kubernetes.io/configuration-snippet: |
+        #   chunked_transfer_encoding on;
+      tls: []
+        #  Secrets must be manually created in the namespace.
+        # - hosts:
+        #   - artifactory.domain.example
+        #   secretName: chart-example-tls-secret
+
   ssh:
     enabled: false
     internalPort: 1339

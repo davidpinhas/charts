@@ -1058,7 +1058,7 @@ artifactory:
         #  Secrets must be manually created in the namespace.
         # - hosts:
         #   - artifactory.domain.example
-        #   secretName: chart-example-tls
+        #   secretName: chart-example-tls-secret
 
   ssh:
     enabled: false

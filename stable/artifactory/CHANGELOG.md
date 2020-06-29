@@ -2,7 +2,7 @@
 All changes to this chart will be documented in this file.
 
 ## [9.5.6] - Jun 29, 2020
-* Add dedicated ingress object for replicator service when enabled
+* Add dedicated ingress object for Replicator service when enabled
 
 ## [9.5.5] - Jun 25, 2020
 * Stop loading the Nginx stream module because it is now a core module

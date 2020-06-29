@@ -462,7 +462,7 @@ artifactory:
        #  Secrets must be manually created in the namespace.
        # - hosts:
        #   - artifactory.domain.example
-       #   secretName: chart-example-tls
+       #   secretName: chart-example-tls-secret
 
   ## IMPORTANT: If overriding artifactory.internalPort:
   ## DO NOT use port lower than 1024 as Artifactory runs as non-root and cannot bind to ports lower than 1024!

@@ -1052,7 +1052,7 @@ The following table lists the configurable parameters of the artifactory chart a
 | `artifactory.javaOpts.jmx.accessFile`              | The path to the JMX access file, when JMX authentication is enabled           | |
 | `artifactory.javaOpts.jmx.passwordFile`              | The path to the JMX password file, when JMX authentication is enabled           | |
 | `artifactory.javaOpts.other`            | Artifactory additional java options |                                          |
-| `artifactory.replicator.enabled`        | Enable a dedicate ingress object for replicator service           |            |
+| `artifactory.replicator.enabled`        | Enable a dedicate ingress object for replicator service          |             |
 | `artifactory.ssh.enabled`            | Enable Artifactory SSH access |                                      |
 | `artifactory.ssh.internalPort`            | Artifactory SSH internal port | `1339`                                      |
 | `artifactory.ssh.externalPort`            | Artifactory SSH external port | `1339`                                     |

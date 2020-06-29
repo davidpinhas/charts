@@ -1170,7 +1170,7 @@ The following table lists the configurable parameters of the artifactory chart a
 | `artifactory.persistence.fileStorage.dataDir`             | HA data directory                   | `/var/opt/jfrog/artifactory/artifactory-data`     |
 | `artifactory.persistence.fileStorage.backupDir`           | HA backup directory                 | `/var/opt/jfrog/artifactory-backup` |
 | `artifactory.javaOpts.other`                        | Artifactory additional java options (for all nodes) |              |
-| `artifactory.replicator.enabled`                | Enable a dedicate ingress object for replicator service    |             |
+| `artifactory.replicator.enabled`                | Enable a dedicate ingress object for Replicator service    |             |
 | `artifactory.ssh.enabled`                       | Enable Artifactory SSH access     |                                      |
 | `artifactory.ssh.internalPort`                  | Artifactory SSH internal port     | `1339`                                      |
 | `artifactory.ssh.externalPort`                  | Artifactory SSH external port     | `1339`                                     |
